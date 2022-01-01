@@ -1,11 +1,5 @@
 # Imports
 import pandas as pd
-from datetime import datetime
-import csv
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-import os
-from matplotlib import font_manager as fm, rcParams
 import matplotlib.pyplot as plt
 
 
@@ -19,7 +13,7 @@ lengte = 80  # mm
 # Create dataframe
 
 headers = ['Time_[s]', 'Displacement_[mm]', 'Force_[kN]']
-df = pd.read_csv('csv_files/tpe1_20211220_Trekproef_Jordy&Jordy_2_2.csv',
+df = pd.read_csv('csv_files/tpe1_20211220_Trekproef_Jordy&Jordy_2_2_PS.csv',
                  names=headers,
                  sep=';',
                  skiprows=8,

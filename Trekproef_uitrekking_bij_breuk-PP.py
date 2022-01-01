@@ -1,11 +1,5 @@
 # Imports
 import pandas as pd
-from datetime import datetime
-import csv
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-import os
-from matplotlib import font_manager as fm, rcParams
 import matplotlib.pyplot as plt
 
 

@@ -13,7 +13,7 @@ lengte = 0.08  # m
 # Create dataframe
 
 headers = ['Time_[s]', 'Displacement_[mm]', 'Force_[kN]']
-df = pd.read_csv('csv_files/tpe1_20211220_Trekproef_Jordy&Jordy_2_2.csv',
+df = pd.read_csv('csv_files/tpe1_20211220_Trekproef_Jordy&Jordy_2_2_PS.csv',
                  names=headers,
                  sep=';',
                  skiprows=8,
