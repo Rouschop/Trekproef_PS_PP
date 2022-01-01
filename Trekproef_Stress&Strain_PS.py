@@ -13,7 +13,7 @@ lengte = 0.08  # m
 # Create dataframe
 
 headers = ['Time_[s]', 'Displacement_[mm]', 'Force_[kN]']
-df = pd.read_csv('tpe1_20211220_Trekproef_Jordy&Jordy_2_2.csv',
+df = pd.read_csv('csv_files/tpe1_20211220_Trekproef_Jordy&Jordy_2_2.csv',
                  names=headers,
                  sep=';',
                  skiprows=8,
@@ -58,7 +58,7 @@ for tick in ax.get_yticklabels():
     tick.set_size(12)
 
 # plt.show()
-plt.savefig('Young_modulus_PS.jpg', dpi=300, pad_inches=1)
+plt.savefig('Grafieken/Young_modulus_PS.jpg', dpi=300, pad_inches=1)
 # print(df['Displacement_[mm]'])
 
 # df.to_csv('trekproef_PS.csv')
